@@ -1,0 +1,14 @@
+Langkah untuk mocha chai 
+1 buat folder penyimpanan projek  cth  di taro di D 
+2 Buka CMD  lalu masuk ke dalam folder yang tadi sudah di buat (D:\QA>CD Test Automation API With mocha)
+3 ketik npm init, lalu jika sudah kelik enter sampai selesai 
+4 ketik npm install mocha chai supertest -save-dev
+5 buka folder di tempat penyimpanan tadi lalu buka file package json , edit menggunakan notepad edit bagian ini  menjadi  "test": "mocha"
+6 lalu buka visual studio code , buka folder dimana projek itu di buat 
+7 Buat script Automation nya dengan nama test,JS , ketikan script lalu simpan
+8 buka terminal di visual studio 
+9 Jalankan script dengan mengetikan npm test (test = nama file nya kalo nama file nya testQA     jalanin nya npm testQA atau npx mocha <testQA .js>)
+HASIL = 
+  POST User Info
+    ✔ Success Login with valid email and password (644ms)
+  1 passing (660ms)
